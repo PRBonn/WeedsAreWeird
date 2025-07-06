@@ -1,0 +1,10 @@
+img_dir: "/path/to/patches"
+total_patches: 28451
+num_of_candidates: 100
+num_feats: 500
+min_patch_size: 16
+inference_img_dir: "/path/to/dataset/test/images"
+feature_voting_k: 10
+use_size_matching: True
+use_text: False
+hypersphere_nn_k: 10

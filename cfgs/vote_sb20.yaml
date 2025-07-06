@@ -1,0 +1,10 @@
+img_dir: "/path/to/unlabelled/sb20/patches"
+total_patches: 15084
+num_of_candidates: 100
+num_feats: 1000
+min_patch_size: 16
+inference_img_dir: "/path/to/unlabelled/sb20/dataset/test/images"
+feature_voting_k: 100
+use_size_matching: True
+use_text: False
+hypersphere_nn_k: 200
