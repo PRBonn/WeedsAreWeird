@@ -1,6 +1,6 @@
 # Weeds are Weird (WaW)
 
-Paper (under review): Zero-Shot Semantic Segmentation for Robots in Agriculture
+Zero-Shot Semantic Segmentation for Robots in Agriculture (IROS 2025)
 
 [Demo (vegetation mask with SAM only)](https://huggingface.co/spaces/linnchong/veg_mask_SAM)
 ![Motivation](assets/motivation.png)
