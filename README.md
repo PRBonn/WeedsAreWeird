@@ -120,6 +120,7 @@ Note: For PhenoBench test split evaluation, we used the CodaLab benchmark online
 We developed/tested this code on Python 3.12 and utilising a NVIDIA RTX A6000 GPU.
 
 ## Cite us
+```
 @inproceedings{chong2025iros,
 author = {Y.L. Chong and L. Nunes and F. Magistri and X. Zhong and J. Behley and C. Stachniss},
 title = {{Zero-Shot Semantic Segmentation for Robots in Agriculture}},
@@ -128,3 +129,4 @@ year = 2025,
 codeurl = {https://github.com/PRBonn/WeedsAreWeird},
 videurl = {https://youtu.be/1ORs07F0RsE}
 }
+```
