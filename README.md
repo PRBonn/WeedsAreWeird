@@ -1,8 +1,8 @@
 # Weeds are Weird (WaW)
 
-Zero-Shot Semantic Segmentation for Robots in Agriculture (IROS 2025)
-
-[Demo (vegetation mask with SAM only)](https://huggingface.co/spaces/linnchong/veg_mask_SAM)
+Zero-Shot Semantic Segmentation for Robots in Agriculture (IROS 2025)   
+[Paper](https://www.ipb.uni-bonn.de/pdfs/chong2025iros.pdf)     
+[Demo (vegetation mask with SAM only)](https://huggingface.co/spaces/linnchong/veg_mask_SAM)   
 ![Motivation](assets/motivation.png)
 
 Our approach can segment crop plants and weeds without labels. 
@@ -113,7 +113,18 @@ python scripts/evaluate.py \
   --img_size <image size in px> \
   --center_crop;
 ```
+
 Note: For PhenoBench test split evaluation, we used the CodaLab benchmark online.
 
 ## Machine specs
 We developed/tested this code on Python 3.12 and utilising a NVIDIA RTX A6000 GPU.
+
+## Cite us
+@inproceedings{chong2025iros,
+author = {Y.L. Chong and L. Nunes and F. Magistri and X. Zhong and J. Behley and C. Stachniss},
+title = {{Zero-Shot Semantic Segmentation for Robots in Agriculture}},
+booktitle = iros,
+year = 2025,
+codeurl = {https://github.com/PRBonn/WeedsAreWeird},
+videurl = {https://youtu.be/1ORs07F0RsE}
+}
